@@ -1,4 +1,3 @@
-# Copyright(c) 2020 eaibot limited.
 cmake_minimum_required(VERSION 3.5)
 project(ydlidar_ros2_driver C CXX)
 
