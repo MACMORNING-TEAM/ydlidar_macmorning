@@ -1,9 +1,6 @@
 /*
  *  YDLIDAR SYSTEM
  *  YDLIDAR ROS 2 Node
- *
- *  Copyright 2017 - 2020 EAI TEAM
- *  http://www.eaibot.com
  */
 
 #ifdef _MSC_VER
