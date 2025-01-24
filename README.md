@@ -21,9 +21,11 @@ ydlidar_ros2_driver depends on YDLidar-SDK library. If you have never installed 
 
 ## Clone ydlidar_ros2_driver
 
-1. Clone ydlidar_ros2_driver package for github : 
+1. Clone ydlidar_ros2_driver package from this repo : 
 
-   `git clone https://github.com/Oyefusi-Samuel/ydlidar_ros2_driver-master.git`
+   ```
+   git clone https://github.com/YDLIDAR/ydlidar_ros2_driver.git
+   ```
 
 2. Build ydlidar_ros2_driver package :
 
