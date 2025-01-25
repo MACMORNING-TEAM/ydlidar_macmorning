@@ -103,7 +103,7 @@ The command format is :
 
 1. Connect LiDAR uint(s).
    ```
-   ros2 launch ydlidar_ros2_driver ydlidar_launch.py 
+ros2 launch ydlidar_ros2_driver x3_ydlidar_launch.py
    ```
    or 
 
@@ -112,13 +112,14 @@ The command format is :
    ```
 2. RVIZ 
    ```
-   ros2 launch ydlidar_ros2_driver ydlidar_launch_view.py 
+ ros2 launch ydlidar_ros2_driver x3_ydlidar_launch.py
+
    ```
     ![View](images/view.png  "View")
 
 3. echo scan topic
    ```
-   ros2 run ydlidar_ros2_driver ydlidar_ros2_driver_client or ros2 topic echo /scan
+ros2 topic echo /scan
    ```
 
 #####  Launch file introduction
