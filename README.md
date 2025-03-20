@@ -3,10 +3,10 @@
 
 ydlidar_ros2_driver is a new ros package, which is designed to gradually become the standard driver package for ydlidar devices in the ros2 environment.
 
-## How to [install ROS2](https://index.ros.org/doc/ros2/Installation)
+## How to [install ROS2](https://index.ros.org/doc/ros2/Installation](https://docs.ros.org/en/humble/Installation.html)
 [ubuntu](https://index.ros.org/doc/ros2/Installation/Dashing/Linux-Install-Debians/)
 
-[windows](https://index.ros.org/doc/ros2/Installation/Dashing/Windows-Install-Binary/)
+[windows](https://docs.ros.org/en/humble/Installation/Windows-Install-Binary.html)
 
 ## How to Create a ROS2 workspace
 [Create a workspace](https://index.ros.org/doc/ros2/Tutorials/Colcon-Tutorial/#create-a-workspace)
