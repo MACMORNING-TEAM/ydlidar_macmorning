@@ -108,7 +108,7 @@ ros2 launch ydlidar_ros2_driver x3_ydlidar_launch.py
 
 2. RVIZ 
    ```
-ros2 launch ydlidar_ros2_driver ydlidar_x3_view_launch.py
+   ros2 launch ydlidar_ros2_driver ydlidar_x3_view_launch.py
    ```
     ![View](images/view.png  "View")
 
