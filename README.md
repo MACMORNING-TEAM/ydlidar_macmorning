@@ -110,7 +110,8 @@ ros2 launch ydlidar_ros2_driver x3_ydlidar_launch.py
    ```
    ros2 launch ydlidar_ros2_driver ydlidar_x3_view_launch.py
    ```
-    ![View](images/view.png  "View")
+    ![1742395241899](https://github.com/user-attachments/assets/c58bd0ce-2783-4ab0-99b8-9d18b43570c1)
+
 
 3. echo scan topic
    ```
