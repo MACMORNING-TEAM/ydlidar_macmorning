@@ -99,16 +99,16 @@ ydlidar_ros2_driver_node:
 
 The command format is : 
 
- `ros2 launch ydlidar_ros2_driver [launch file].py`
+ ros2 launch ydlidar_ros2_driver [launch file].py`
 
 1. Connect LiDAR uint(s).
  ```
 ros2 launch ydlidar_ros2_driver ydlidar_launch.py 
-   ```
+ ```
 
 2. RVIZ 
    ```
-  ros2 launch ydlidar_ros2_driver ydlidar_launch_view.py
+   ros2 launch ydlidar_ros2_driver ydlidar_launch_view.py
    ```
     ![1742395241899](https://github.com/user-attachments/assets/c58bd0ce-2783-4ab0-99b8-9d18b43570c1)
 
