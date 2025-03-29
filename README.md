@@ -105,15 +105,22 @@ The command format is :
  ```
 ros2 launch ydlidar_ros2_driver ydlidar_launch.py 
  ```
-
+since mine is the x3lidar 
+ ```
+ros2 launch ydlidar_ros2_driver x3_ydlidar_launch.py
+ ```
 2. RVIZ 
    ```
    ros2 launch ydlidar_ros2_driver ydlidar_launch_view.py
    ```
+
+  ```
+   ros2 launch ydlidar_ros2_driver ydlidar_x3_view_launch.py
+   ```
     ![1742395241899](https://github.com/user-attachments/assets/c58bd0ce-2783-4ab0-99b8-9d18b43570c1)
 
 
-3. echo scan topic
+2. echo scan topic
    ```
    ros2 topic echo /scan
    ```
