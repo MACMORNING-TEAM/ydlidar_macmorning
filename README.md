@@ -115,7 +115,7 @@ ros2 launch ydlidar_ros2_driver ydlidar_launch.py
 
 3. echo scan topic
    ```
-ros2 topic echo /scan
+   ros2 topic echo /scan
    ```
 
 #####  Launch file introduction
@@ -174,10 +174,6 @@ The ydlidar_ros2_driver internal parameters are in the launch file, they are lis
 | invalid_range_is_inf     | bool | Invalid Range is inf.<br/>true -- inf.<br/>false -- 0.0.<br/>default: `false` |
 More paramters details, see [here](details.md)
 
-## Contact EAI
-![Development Path](images/EAI.png)
-
-If you have any extra questions, please feel free to [contact us](http://www.ydlidar.cn/cn/contact)
 
 
 
