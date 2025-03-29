@@ -48,13 +48,13 @@ ydlidar_ros2_driver depends on YDLidar-SDK library. If you have never installed 
     Note: Add permanent workspace environment variables.
     It's convenientif the ROS2 environment variables are automatically added to your bash session every time a new shell is launched:
     ```
-    $echo "source ~/ydlidar_ros2_ws/install/setup.bash" >> ~/.bashrc
-    $source ~/.bashrc
+    echo "source ~/ydlidar_ros2_ws/install/setup.bash" >> ~/.bashrc
+    source ~/.bashrc
     ```
 4. Confirmation
     To confirm that your package path has been set, printenv the `grep -i ROS` variable.
     ```
-    $ printenv | grep -i ROS
+     printenv | grep -i ROS
     ```
     You should see something similar to:
         `OLDPWD=/home/tony/ydlidar_ros2_ws/install`
