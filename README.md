@@ -61,8 +61,8 @@ ydlidar_ros2_driver depends on YDLidar-SDK library. If you have never installed 
 
 5. Create serial port Alias [optional] 
     ```
-	$chmod 0777 src/ydlidar_ros2_driver/startup/*
-	$sudo sh src/ydlidar_ros2_driver/startup/initenv.sh
+	chmod 0777 src/ydlidar_ros2_driver/startup/*
+	sudo sh src/ydlidar_ros2_driver/startup/initenv.sh
     ```
     Note: After completing the previous operation, replug the LiDAR again.
 	
