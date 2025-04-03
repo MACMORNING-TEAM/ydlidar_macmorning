@@ -145,7 +145,12 @@ int main(int argc, char *argv[]) {
   qos.reliable();  // Ensure reliable delivery of messages
   qos.durability_volatile();  // Volatile durability, meaning no retention of messages after disconnect
 
-  auto laser_pub = node->create_publisher<sensor_msgs::msg::LaserScan>("scan", qos);
+ // Declare and retrieve parameters
+ std::string topic = "/scan";
+ node->declare_parameter<std::string>("topic", topic);
+ node->get_parameter("topic", topic);
+
+  auto laser_pub = node->create_publisher<sensor_msgs::msg::LaserScan>(topic, qos);
 
   // Services to start and stop scan
   auto stop_scan_service = [&laser](const std::shared_ptr<rmw_request_id_t> /*request_header*/,
