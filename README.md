@@ -94,6 +94,7 @@ ydlidar_ros2_driver_node:
 ## Run ydlidar_ros2_driver
 
 ##### Run ydlidar_ros2_driver using launch file
+##### SDK 꼭 가이드 따라서 제대로 설치하세요.
 
 The command format is : 
 
@@ -107,10 +108,9 @@ ros2 launch ydlidar_ros2_driver 4ros_ydlidar_launch.py
 ros2 launch ydlidar_ros2_driver 4ros_ydlidar_launch_multi_lidar.py
  ```
 
-2. echo scan topic
-   ```
-   ros2 topic echo /scan
-   ```
+
+
+
 
 #####  Launch file introduction
 
