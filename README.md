@@ -6,8 +6,6 @@ ydlidar_ros2_driver is a new ros package, which is designed to gradually become 
 ## How to [install ROS2](https://docs.ros.org/en/humble/Installation.html)
 [ubuntu](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debs.html)
 
-[windows](https://docs.ros.org/en/humble/Installation/Windows-Install-Binary.html)
-
 ## How to Create a ROS2 workspace
 [Create a workspace](https://index.ros.org/doc/ros2/Tutorials/Colcon-Tutorial/#create-a-workspace)
 
@@ -99,26 +97,15 @@ ydlidar_ros2_driver_node:
 
 The command format is : 
 
- ros2 launch ydlidar_ros2_driver [launch file].py`
 
-1. Connect LiDAR uint(s).
+하나만 킬 때(런치파일 yaml파일 참고!!)
  ```
-ros2 launch ydlidar_ros2_driver ydlidar_launch.py 
+ros2 launch ydlidar_ros2_driver 4ros_ydlidar_launch.py 
  ```
-since mine is the x3lidar 
+두개 킬 때(런치파일 yaml파일 참고!!) 
  ```
-ros2 launch ydlidar_ros2_driver x3_ydlidar_launch.py
+ros2 launch ydlidar_ros2_driver 4ros_ydlidar_launch_multi_lidar.py
  ```
-2. RVIZ 
-   ```
-   ros2 launch ydlidar_ros2_driver ydlidar_launch_view.py
-   ```
-
-  ```
-   ros2 launch ydlidar_ros2_driver ydlidar_x3_view_launch.py
-   ```
- ![1742395241899](https://github.com/user-attachments/assets/c58bd0ce-2783-4ab0-99b8-9d18b43570c1)
-
 
 2. echo scan topic
    ```
