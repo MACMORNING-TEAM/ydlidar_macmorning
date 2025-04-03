@@ -120,9 +120,8 @@ is `"ydlidar_ros2_ws/src/ydlidar_ros2_driver/launch"`. All launch files are list
 
 | launch file               | features                                                     |
 | ------------------------- | ------------------------------------------------------------ |
-| ydlidar.py         | Connect to defualt paramters<br/>Publish LaserScan message on `scan` topic |
-| ydlidar_launch.py         | Connect ydlidar.yaml Lidar specified by configuration parameters<br/>Publish LaserScan message on `scan` topic |
-| ydlidar_launch_view.py         | Connect ydlidar.yaml Lidar specified by configuration parameters and setup RVIZ<br/>Publish LaserScan message on `scan` topic |
+| 4ros_ydlidar_launch.py         | /scan 쏴줌, params/ydlidar_4ros.yaml 참조 |
+| 4ros_ydlidar_launch_multi_lidar.py         | /scan1, /scan2 쏴줌. params/ydlidar_4ros_1.yaml, params/ydlidar_4ros_2.yaml 참고 |
 
 
 
